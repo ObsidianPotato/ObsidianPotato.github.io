@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 146 40" >
+
+  <defs>
+    <radialGradient id="l1grad" class="light1-gradient">
+      <stop offset="65%" stop-color="#ff0000" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#ff0000" stop-opacity="0.0"/>
+    </radialGradient>
+    <radialGradient id="l2grad" class="light2-gradient">
+      <stop offset="65%" stop-color="#ff0000" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#ff0000" stop-opacity="0.0"/>
+    </radialGradient>
+    <radialGradient id="l3grad" class="light3-gradient">
+      <stop offset="65%" stop-color="#ff0000" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#ff0000" stop-opacity="0.0"/>
+    </radialGradient>
+    <radialGradient id="l4grad" class="light3-gradient">
+      <stop offset="65%" stop-color="#ff0000" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#ff0000" stop-opacity="0.0"/>
+    </radialGradient>
+  </defs>
+
+  <path d="M 1,1 q 12,6 24,0 12,6 24,0 12,6 24,0 12,6 24,0 12,6 24,0 12,6 24,0" class="christmas-string" stroke="white" stroke-width="1" fill="none" />
+
+  <g transform="translate(9, 4) rotate(10)" >
+    <circle cx="5" cy="5" r="4" fill="url('#l1grad')" transform="translate(-3, 0)" />
+    <path d="M 2,2 L 3,2 Q 3.75,2.25 4,3 Q 4,6 2,7 Q 0,6 0,3 Q 0.25,2.25 1,2 L 2,2" class="light1" stroke="red" fill="red" stroke-width="1" transform="translate(0, 0.85)"/>
+    <path d="M 2,0 Q 3,0 3,1 L 3,2 L 1,2 L 1,1 Q 1,0 2,0" class="christmas-string" stroke="white" fill="white" stroke-width="1" fill="none" />
+  </g>
+  <g transform="translate(23, 2) rotate(0)" >
+    <circle cx="5" cy="5" r="4" fill="url('#l2grad')" transform="translate(-3, 0)" />
+    <path d="M 2,2 L 3,2 Q 3.75,2.25 4,3 Q 4,6 2,7 Q 0,6 0,3 Q 0.25,2.25 1,2 L 2,2" class="light2" stroke="red" fill="red" stroke-width="1" transform="translate(0, 0.85)"/>
+    <path d="M 2,0 Q 3,0 3,1 L 3,2 L 1,2 L 1,1 Q 1,0 2,0" class="christmas-string" stroke="white" fill="white" stroke-width="1" fill="none" />
+  </g>
+  <g transform="translate(35.5, 4.5) rotate(-5)" >
+    <circle cx="5" cy="5" r="4" fill="url('#l3grad')" transform="translate(-3, 0)" />
+    <path d="M 2,2 L 3,2 Q 3.75,2.25 4,3 Q 4,6 2,7 Q 0,6 0,3 Q 0.25,2.25 1,2 L 2,2" class="light3" stroke="red" fill="red" stroke-width="1" transform="translate(0, 0.85)"/>
+    <path d="M 2,0 Q 3,0 3,1 L 3,2 L 1,2 L 1,1 Q 1,0 2,0" class="christmas-string" stroke="white" fill="white" stroke-width="1" fill="none" />
+  </g>
+  <g transform="translate(47, 1.25) rotate(7)" >
+    <circle cx="5" cy="5" r="4" fill="url('#l4grad')" transform="translate(-3, 0)" />
+    <path d="M 2,2 L 3,2 Q 3.75,2.25 4,3 Q 4,6 2,7 Q 0,6 0,3 Q 0.25,2.25 1,2 L 2,2" class="light4" stroke="red" fill="red" stroke-width="1" transform="translate(0, 0.85)"/>
+    <path d="M 2,0 Q 3,0 3,1 L 3,2 L 1,2 L 1,1 Q 1,0 2,0" class="christmas-string" stroke="white" fill="white" stroke-width="1" fill="none" />
+  </g>
+  <g transform="translate(59, 4) rotate(-2)" >
+    <circle cx="5" cy="5" r="4" fill="url('#l1grad')" transform="translate(-3, 0)" />
+    <path d="M 2,2 L 3,2 Q 3.75,2.25 4,3 Q 4,6 2,7 Q 0,6 0,3 Q 0.25,2.25 1,2 L 2,2" class="light1" stroke="red" fill="red" stroke-width="1" transform="translate(0, 0.85)"/>
+    <path d="M 2,0 Q 3,0 3,1 L 3,2 L 1,2 L 1,1 Q 1,0 2,0" class="christmas-string" stroke="white" fill="white" stroke-width="1" fill="none" />
+  </g>
+  <g transform="translate(71, 1) rotate(5)" >
+    <circle cx="5" cy="5" r="4" fill="url('#l2grad')" transform="translate(-3, 0)" />
+    <path d="M 2,2 L 3,2 Q 3.75,2.25 4,3 Q 4,6 2,7 Q 0,6 0,3 Q 0.25,2.25 1,2 L 2,2" class="light2" stroke="red" fill="red" stroke-width="1" transform="translate(0, 0.85)"/>
+    <path d="M 2,0 Q 3,0 3,1 L 3,2 L 1,2 L 1,1 Q 1,0 2,0" class="christmas-string" stroke="white" fill="white" stroke-width="1" fill="none" />
+  </g>
+  <g transform="translate(83.5, 4.5) rotate(-2)" >
+    <circle cx="5" cy="5" r="4" fill="url('#l3grad')" transform="translate(-3, 0)" />
+    <path d="M 2,2 L 3,2 Q 3.75,2.25 4,3 Q 4,6 2,7 Q 0,6 0,3 Q 0.25,2.25 1,2 L 2,2" class="light3" stroke="red" fill="red" stroke-width="1" transform="translate(0, 0.85)"/>
+    <path d="M 2,0 Q 3,0 3,1 L 3,2 L 1,2 L 1,1 Q 1,0 2,0" class="christmas-string" stroke="white" fill="white" stroke-width="1" fill="none" />
+  </g>
+  <g transform="translate(95, 1.25) rotate(-5)" >
+    <circle cx="5" cy="5" r="4" fill="url('#l4grad')" transform="translate(-3, 0)" />
+    <path d="M 2,2 L 3,2 Q 3.75,2.25 4,3 Q 4,6 2,7 Q 0,6 0,3 Q 0.25,2.25 1,2 L 2,2" class="light4" stroke="red" fill="red" stroke-width="1" transform="translate(0, 0.85)"/>
+    <path d="M 2,0 Q 3,0 3,1 L 3,2 L 1,2 L 1,1 Q 1,0 2,0" class="christmas-string" stroke="white" fill="white" stroke-width="1" fill="none" />
+  </g>
+  <g transform="translate(108, 4) rotate(2)" >
+    <circle cx="5" cy="5" r="4" fill="url('#l1grad')" transform="translate(-3, 0)" />
+    <path d="M 2,2 L 3,2 Q 3.75,2.25 4,3 Q 4,6 2,7 Q 0,6 0,3 Q 0.25,2.25 1,2 L 2,2" class="light1" stroke="red" fill="red" stroke-width="1" transform="translate(0, 0.85)"/>
+    <path d="M 2,0 Q 3,0 3,1 L 3,2 L 1,2 L 1,1 Q 1,0 2,0" class="christmas-string" stroke="white" fill="white" stroke-width="1" fill="none" />
+  </g>
+  <g transform="translate(119, 1) rotate(5)" >
+    <circle cx="5" cy="5" r="4" fill="url('#l2grad')" transform="translate(-3, 0)" />
+    <path d="M 2,2 L 3,2 Q 3.75,2.25 4,3 Q 4,6 2,7 Q 0,6 0,3 Q 0.25,2.25 1,2 L 2,2" class="light2" stroke="red" fill="red" stroke-width="1" transform="translate(0, 0.85)"/>
+    <path d="M 2,0 Q 3,0 3,1 L 3,2 L 1,2 L 1,1 Q 1,0 2,0" class="christmas-string" stroke="white" fill="white" stroke-width="1" fill="none" />
+  </g>
+  <g transform="translate(131.5, 4.5) rotate(-5)" >
+    <circle cx="5" cy="5" r="4" fill="url('#l3grad')" transform="translate(-3, 0)" />
+    <path d="M 2,2 L 3,2 Q 3.75,2.25 4,3 Q 4,6 2,7 Q 0,6 0,3 Q 0.25,2.25 1,2 L 2,2" class="light3" stroke="red" fill="red" stroke-width="1" transform="translate(0, 0.85)"/>
+    <path d="M 2,0 Q 3,0 3,1 L 3,2 L 1,2 L 1,1 Q 1,0 2,0" class="christmas-string" stroke="white" fill="white" stroke-width="1" fill="none" />
+  </g>
+
+</svg> 
