@@ -1,0 +1,405 @@
+@font-face {
+  font-family: lato-black;
+  src: url(assets/fonts/Lato-Black.ttf);
+}
+@font-face {
+  font-family: lato-black-italic;
+  src: url(assets/fonts/Lato-BlackItalic.ttf);
+}
+@font-face {
+  font-family: lato-bold;
+  src: url(assets/fonts/Lato-Bold.ttf);
+}
+@font-face {
+  font-family: Lato-bold-italic;
+  src: url(assets/fonts/Lato-BoldItalic.ttf);
+}
+@font-face {
+  font-family: lato;
+  src: url(assets/fonts/Lato-Regular.ttf);
+}
+@font-face {
+  font-family: lato-italic;
+  src: url(assets/fonts/Lato-Italic.ttf);
+}
+
+html, body {
+  background-color: var(--bgcol-main);
+  color: var(--textcol-main);
+  font-family: lato;
+  margin: 0;
+  padding: 0;
+  border: 0px;
+  height: 100%;
+  overflow: overlay;
+  overflow-x: hidden;
+  cursor: default;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0px;
+  padding: 0px;
+  font-weight: normal;
+}
+
+.push {
+  margin-left: auto;
+}
+
+a {
+  color: var(--textcol-a);
+  transition-duration: 250ms;
+  text-decoration: none;
+}
+a:hover {
+  color: var(--textcol-a-hover);
+}
+.uline {
+  text-decoration: underline;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+.centerer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+/*
+ ▄▄▄                           ▄▄▄                     
+  ██                            ██                     
+  ██▄▀█▄  ▄█▀▀▀█▄   ▀▀▀█▄    ▄█▀██   ▄█▀▀▀█▄  ▀█▄█▀█▄  
+  ██  ██  ██▀▀▀▀▀  ▄█▀▀██   ██  ██   ██▀▀▀▀▀   ██  ▀▀  
+  ██  ██  ██   ▄▄  ██  ██   ██  ██   ██   ▄▄   ██      
+ ▀▀▀  ▀▀   ▀▀▀▀▀    ▀▀▀ ▀▀   ▀▀▀ ▀▀   ▀▀▀▀▀   ▀▀▀▀
+ */
+
+.header {
+  display: flex;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: calc(100vw - 5px);
+  background-color: var(--bgcol-header);
+  align-items: center;
+  padding: 2.5px;
+  padding-bottom: 3px;
+  gap: 10px;
+  z-index: 100;
+}
+
+.header h1 {
+  font-family: lato-bold !important;
+  height: fit-content;
+  margin-left: 5px;
+}
+
+.icon-img {
+  height: 3.5em;
+  width: 3.5em;
+  image-rendering: optimizeQuality;
+}
+
+.theme-button {
+  width: 3em;
+  fill: var(--iconcol-theme);
+  margin-right: 2px;
+}
+.moonmask {
+  transform: rotate(180deg);
+}
+
+/*
+   ▄▄▄                        ▄                       
+  ██ ▀█                      ██                       
+ ▄██▄    ▄█▀▀▀█▄  ▄█▀▀▀█▄  ▀▀██▀▀   ▄█▀▀▀█▄  ▀█▄█▀█▄  
+  ██     ██   ██  ██   ██    ██     ██▀▀▀▀▀   ██  ▀▀  
+  ██     ██   ██  ██   ██    ██ ▄▄  ██   ▄▄   ██      
+ ▀▀▀▀     ▀▀▀▀▀    ▀▀▀▀▀      ▀▀▀    ▀▀▀▀▀   ▀▀▀▀
+ */
+
+
+ .footer {
+  background-color: var(--bgcol-footer);
+  width: calc(100vw - 20px - 10px);
+  padding: 10px;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+ }
+
+ .footer-card {
+  height: 3.25em;
+ }
+
+
+
+ /*
+                    ▄▄            
+                    ▀▀            
+ ███▄██▄   ▀▀▀█▄   ▀██   ▀█▄▀▀█▄  
+ ██ █ ██  ▄█▀▀██    ██    ██  ██  
+ ██ █ ██  ██  ██    ██    ██  ██  
+ ▀▀   ▀▀   ▀▀▀ ▀▀  ▀▀▀▀   ▀▀  ▀▀  
+*/
+
+.main {
+  min-height: calc(100%);
+  text-align: center;
+}
+
+.sectionheader {
+  font-family: Lato-Bold;
+  margin-bottom: 10px;
+}
+
+.main-top svg {
+  height: 3em;
+}
+
+/*
+  ▄▄               ▄                                                                ▄      ▄▄                     
+  ▀▀              ██                                                               ██      ▀▀                     
+ ▀██   ▀█▄▀▀█▄  ▀▀██▀▀   ▀█▄█▀█▄  ▄█▀▀▀█▄             ▄█▀▀▀█▄  ▄█▀▀▀█▄  ▄█▀▀▀█▄  ▀▀██▀▀   ▀██   ▄█▀▀▀█▄  ▀█▄▀▀█▄  
+  ██    ██  ██    ██      ██  ▀▀  ██   ██              ▀█▄▄    ██▀▀▀▀▀  ██         ██      ██   ██   ██   ██  ██  
+  ██    ██  ██    ██ ▄▄   ██      ██   ██             ▄▄  ▀█▄  ██   ▄▄  ██   ▄▄    ██ ▄▄   ██   ██   ██   ██  ██  
+ ▀▀▀▀   ▀▀  ▀▀     ▀▀▀   ▀▀▀▀      ▀▀▀▀▀               ▀▀▀▀▀    ▀▀▀▀▀    ▀▀▀▀▀      ▀▀▀   ▀▀▀▀   ▀▀▀▀▀    ▀▀  ▀▀  
+*/
+
+.intro-section {
+  width: 100vw;
+  text-align: center;
+}
+
+.intro-section h1 {
+  font-size: 2.5em;
+  font-family: Lato-Bold;
+}
+
+
+
+/*
+          ▄▄▄    ▄▄      ▄▄▄                        ▄▄                              
+           ██    ▀▀       ██                        ▀▀                              
+ ▄█▀▀▀█▄   ██   ▀██    ▄█▀██   ▄█▀▀▀█▄             ▀██   ███▄██▄  ▄█▀▀▄█▀  ▄█▀▀▀█▄  
+  ▀█▄▄     ██    ██   ██  ██   ██▀▀▀▀▀              ██   ██ █ ██  ██  ██    ▀█▄▄    
+ ▄▄  ▀█▄   ██    ██   ██  ██   ██   ▄▄              ██   ██ █ ██  ██  ██   ▄▄  ▀█▄  
+  ▀▀▀▀▀   ▀▀▀▀  ▀▀▀▀   ▀▀▀ ▀▀   ▀▀▀▀▀              ▀▀▀▀  ▀▀   ▀▀   ▀▀▀██    ▀▀▀▀▀   
+                                                                  ▀█▄▄█▀            
+*/
+
+.slider-section {
+  width: 100vw;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.slideimgs {
+  padding-top: 1.25em;
+  padding-bottom: 1.25em;
+  border-radius: 15px;
+  background-color: var(--bgcol-slideimgs);
+  width: calc(100vw - 10em);
+  z-index: 1;
+}
+
+.slide-description {
+  color: var(--textcol-slidetext);
+  background-color: var(--bgcol-slidetext);
+  font-size: 2.5px;
+  font-family: Lato-Bold;
+  position: fixed;
+  bottom: 0px;
+  padding-bottom: 1px;
+  padding-top: 1px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.slide-description .sldesc {
+  text-align: center;
+}
+
+.slide-arrow {
+  cursor: pointer;
+  fill: var(--fillcol-slidearrow);
+  position: fixed;
+}
+.slide-arrow.left {
+  left: 0px;
+  transform: translate(2px, 50px) rotate(-45deg);
+}
+.slide-arrow.right {
+  transform: translate(198px, 50px) rotate(-225deg);
+}
+
+/*
+  ▄▄                        ▄▄▄                        ▄     ▄▄▄                                               ▄      ▄▄                     
+  ▀▀                         ██                       ██      ██                                              ██      ▀▀                     
+ ▀██   ▀█▄▀▀█▄            ▄█▀██   ▄█▀▀▀█▄  ▀█▄▀▀█▄  ▀▀██▀▀    ██▄▀█▄             ▄█▀▀▀█▄  ▄█▀▀▀█▄  ▄█▀▀▀█▄  ▀▀██▀▀   ▀██   ▄█▀▀▀█▄  ▀█▄▀▀█▄  
+  ██    ██  ██  ▀▀▀▀▀▀▀  ██  ██   ██▀▀▀▀▀   ██  ██    ██      ██  ██              ▀█▄▄    ██▀▀▀▀▀  ██         ██      ██   ██   ██   ██  ██  
+  ██    ██  ██           ██  ██   ██   ▄▄   ██  ██    ██ ▄▄   ██  ██             ▄▄  ▀█▄  ██   ▄▄  ██   ▄▄    ██ ▄▄   ██   ██   ██   ██  ██  
+ ▀▀▀▀   ▀▀  ▀▀            ▀▀▀ ▀▀   ▀▀▀▀▀    ██▀▀▀      ▀▀▀   ▀▀▀  ▀▀              ▀▀▀▀▀    ▀▀▀▀▀    ▀▀▀▀▀      ▀▀▀   ▀▀▀▀   ▀▀▀▀▀    ▀▀  ▀▀  
+                                           ▄██▄                                                                                              
+*/
+
+
+.indepth-section .sectionheader {
+  margin-top: 3em;
+}
+
+.general-description {
+  padding-left: 15vw;
+  padding-right: 15vw;
+  text-align: center;
+  overflow: wrap;
+}
+
+/*
+                                        ▄                                                                         ▄      ▄▄                     
+                                       ██                                                                        ██      ▀▀                     
+ ▄█▀▀▀█▄  ▀█▄█▀█▄  ▄█▀▀▀█▄   ▀▀▀█▄   ▀▀██▀▀   ▄█▀▀▀█▄  ▀█▄█▀█▄  ▄█▀▀▀█▄             ▄█▀▀▀█▄  ▄█▀▀▀█▄  ▄█▀▀▀█▄  ▀▀██▀▀   ▀██   ▄█▀▀▀█▄  ▀█▄▀▀█▄  
+ ██        ██  ▀▀  ██▀▀▀▀▀  ▄█▀▀██     ██     ██   ██   ██  ▀▀   ▀█▄▄                ▀█▄▄    ██▀▀▀▀▀  ██         ██      ██   ██   ██   ██  ██  
+ ██   ▄▄   ██      ██   ▄▄  ██  ██     ██ ▄▄  ██   ██   ██      ▄▄  ▀█▄             ▄▄  ▀█▄  ██   ▄▄  ██   ▄▄    ██ ▄▄   ██   ██   ██   ██  ██  
+  ▀▀▀▀▀   ▀▀▀▀      ▀▀▀▀▀    ▀▀▀ ▀▀     ▀▀▀    ▀▀▀▀▀   ▀▀▀▀      ▀▀▀▀▀               ▀▀▀▀▀    ▀▀▀▀▀    ▀▀▀▀▀      ▀▀▀   ▀▀▀▀   ▀▀▀▀▀    ▀▀  ▀▀  
+*/
+
+.creators-section {
+  display: flex;
+  width: calc(100vw - 10em);
+  justify-content: center;
+
+}
+.team-box {
+  background-color: var(--bgcol-creators);
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 15px;
+  padding-bottom: 20px;
+}
+
+.team-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.member-card {
+  background-color: var(--bgcol-membercard);
+  padding: 10px;
+  padding-right: 20px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.member-image {
+  height: 8em;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.membertext {
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.membertext .name {
+  font-family: Lato-Bold;
+  font-size: 1.75em;
+}
+
+.membertext .title {
+  color: var(--textcol-membertitle);
+}
+
+.membertext .description {
+  color: var(--textcol-membertitle);
+  font-size: 1.125em;
+  margin-top: 5px;
+}
+
+
+/*
+                             ▄▄            ▄▄▄                                                     ▄      ▄▄                     
+                             ▀▀             ██                                                    ██      ▀▀                     
+ ▄█▀▀▀█▄  ▄█▀▀▀█▄  ▄█▀▀▀█▄  ▀██    ▀▀▀█▄    ██   ▄█▀▀▀█▄             ▄█▀▀▀█▄  ▄█▀▀▀█▄  ▄█▀▀▀█▄  ▀▀██▀▀   ▀██   ▄█▀▀▀█▄  ▀█▄▀▀█▄  
+  ▀█▄▄    ██   ██  ██        ██   ▄█▀▀██    ██    ▀█▄▄                ▀█▄▄    ██▀▀▀▀▀  ██         ██      ██   ██   ██   ██  ██  
+ ▄▄  ▀█▄  ██   ██  ██   ▄▄   ██   ██  ██    ██   ▄▄  ▀█▄             ▄▄  ▀█▄  ██   ▄▄  ██   ▄▄    ██ ▄▄   ██   ██   ██   ██  ██  
+  ▀▀▀▀▀    ▀▀▀▀▀    ▀▀▀▀▀   ▀▀▀▀   ▀▀▀ ▀▀  ▀▀▀▀   ▀▀▀▀▀               ▀▀▀▀▀    ▀▀▀▀▀    ▀▀▀▀▀      ▀▀▀   ▀▀▀▀   ▀▀▀▀▀    ▀▀  ▀▀  
+*/
+                                                                                                                                 
+.socials {
+  background-color: var(--bgcol-socials);
+  width: fit-content;
+  padding: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 15px;
+}
+
+.socials-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.socials-icon {
+  height: 5em;
+  fill: var(--fillcol-socials);
+  cursor: pointer;
+}
+
+.socials-icon:hover {
+  fill: var(--fillcol-socials-hover);
+}
+
+.instapath {
+  fill: var(--fillcol-socials);
+  transition: fill 200ms;
+}
+
+.instagram-icon:hover .instapath {
+  fill: transparent !important;
+}
+
+/*
+   ▄▄▄                                       
+  ██ ▀█                                      
+ ▄██▄    ██  ██   ▀█▄▀▀█▄  ▀█▄▀▀█▄  ██   ██  
+  ██     ██  ██    ██  ██   ██  ██  ██   ██  
+  ██     ██  ██    ██  ██   ██  ██  ██   ██  
+ ▀▀▀▀     ▀▀▀ ▀▀   ▀▀  ▀▀   ▀▀  ▀▀   ▀▀▀▀██  
+                                    ▄▄▄▄█▀   
+*/
+
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--scrollcol);
+  border-radius: 5px;
+}
+
+::selection {
+  background: var(--selection);
+}

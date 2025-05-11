@@ -1,0 +1,18 @@
+.theme-button {
+  position: fixed;
+  top: 5px;
+  right: 5px;
+}
+.main404 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.big {
+  font-family: Lato-Bold;
+}
+.main404 div {
+  text-align: center;
+}

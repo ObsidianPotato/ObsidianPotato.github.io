@@ -1,0 +1,70 @@
+:root {
+  --scrollcol: #e7e7e7;
+  --bgcol-main: #2b2b2b;
+  --textcol-main: #dddddd;
+  --bgcol-header: #313131;
+  --iconcol-theme: #ffffff;
+  --textcol-a: #dde4f5;
+  --textcol-a-hover: #ccd9f7;
+  --selection: #3f86f170;
+  --bgcol-footer: #303030;
+  --bgcol-slideimgs: #313131;
+  --bgcol-slidetext: #31313150;
+  --textcol-slidetext: #dddddd;
+  --fillcol-slidearrow: #dddddd;
+  --bgcol-creators: #313131;
+  --bgcol-membercard: #3a3a3a;
+  --bgcol-socials: #3b3b3b;
+  --fillcol-socials: #e0e0e0;
+  --fillcol-socials-hover: #cecece;
+  --christmas-string: #525252;
+  --christmas-light1: #e75151;
+  --christmas-light2: #49ce49;
+  --christmas-light3: #5252e0;
+  --christmas-light4: #ffffff;
+}
+
+.theme-circle {
+  transform: translate(5px, 5px) scale(0.75);
+}
+.theme-sunray {
+  transform-origin: 5px 5px;
+}
+
+.raypiece {
+  transform: translate(4.75px, 4.25px) scale(0);
+}
+
+.theme-button .s1 {
+  transform: rotate(0deg);
+}
+.theme-button .s2 {
+  transform: rotate(45deg);
+}
+.theme-button .s3 {
+  transform: rotate(90deg);
+}
+.theme-button .s4 {
+  transform: rotate(135deg);
+}
+.theme-button .s5 {
+  transform: rotate(180deg);
+}
+.theme-button .s6 {
+  transform: rotate(225deg);
+}
+.theme-button .s7 {
+  transform: rotate(270deg);
+}
+.theme-button .s8 {
+  transform: rotate(320deg);
+}
+
+.theme-moonmask {
+  transform: translate(2.25px, 2.25px) scale(1);
+}
+.sunrays {
+  opacity: 0;
+  transition: opacity 500ms;
+  transition-timing-function: cubic-bezier(0.67, 0.04, 0, 3.26);
+}
