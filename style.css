@@ -1,0 +1,33 @@
+.bodyText {
+    color : black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.forgroundImg{
+    width: 80%;
+    height: auto;
+    max-width: 500px;
+
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.subForgroundImg{
+    height: 20%;
+    max-width: 500px;
+
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body{
+    background-image: url('BG.png');
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+
+    overflow: hidden;
+}
