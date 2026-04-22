@@ -1,6 +1,6 @@
 .bodyText {
     color : black;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'SourGummy';
     text-align: center;
 }
 
@@ -30,4 +30,15 @@ body{
     background-repeat: no-repeat;
 
     overflow: hidden;
+}
+
+/* fonts */
+@font-face {
+    font-family: 'SourGummy';
+    src: url('SourGummy.ttf');
+}
+
+@font-face {
+    font-family: 'Chewy';
+    src: url('Chewy-Regular.ttf');
 }
