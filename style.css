@@ -1,6 +1,14 @@
 .bodyText {
     color : black;
+    font-size: 16px;
     font-family: 'SourGummy';
+    text-align: center;
+}
+
+.boldText {
+    color : black;
+    font-size: 20px;
+    font-family: 'Chewy';
     text-align: center;
 }
 
@@ -21,6 +29,42 @@
     display: block;
     margin-right: auto;
     margin-left: auto;
+}
+
+.inputForm{
+    text-align: center;
+}
+
+.validEmailPrompt {
+    font-family: 'SourGummy';
+    text-align: center;
+    color: green;
+}
+
+.invalidEmailPrompt {
+    font-family: 'SourGummy';
+    text-align: center;
+    color: red;
+}
+
+.Btn {
+    font-family: 'Chewy';
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+
+    border-radius: 10%;
+    border-width: 3px;
+    background-color: #CC8356;
+    border-color: #300D2C;
+}
+
+.textInput {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+
+    border-color: #300D2C;
+    border-width: 3px;
 }
 
 body{

@@ -1,3 +1,8 @@
+<!-- 
+ A website for the game fruitbrawl 
+ Webside by Ford Stone 
+ 5/2/26
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,14 +21,54 @@
     <!-- Bootstrap -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>   
     
+    <!-- title image -->
     <img src="Title.png" alt="Fruit Brawl" class="forgroundImg">
 
-    <p class = "bodyText"> This is the website for FruitBrawl, the deckbuilder where the shop fights back! </p>
-    <p class = "bodyText"> The website is still work-in-progress. Check back later! </p>
+    <div class = "bodyText">
+        <p>
+            FruitBrawl is a 1v1 deckbuilder where the shop cards slowly go overripe until they attack both players.
+            FruitBrawl challenges the norms of the deckbuilding genre to create intricate puzzles on every turn.
+            <br>
+            All of the systems in the game are intertwined, so the complexity extends far beyond what is immediately obvious.
+            FruitBrawl is meant to be replayed over and over again: there are countless strategies and unexpected situations that can occur. 
+            A deep understanding of the game will give you the best games (the process to getting there is engaging, though!)
+            <br>
+            FruitBrawl takes 45-90 minutes to play, if both players are experienced. Add about 30 minutes for each new player to get a more accurate time estimation.
+            <br>
+            Signup for the newsletter here, or contact me at anne@fruitbrawl.com 
+        </p>
+    </div>
 
-    <img src="Extra.png" alt="cute fruit image" class="subForgroundImg">
+    <!-- bonus image, if other things have the id spinnerFruit, they will spin when clicked so watch out -->
+    <img src="Extra.png" alt="cute fruit image" class="subForgroundImg" id="spinnerFruit">
+
+    <div class = "boldText">
+        <p>Join the email list:</p>
+    </div>
+    
+    <!-- email input form -->
+    <div class="inputForm">
+        <form>
+            <input id="emailInput" class="textInput" type="email" placeholder="Enter Email"/>
+            <button id="submitBTN" class="Btn" type="button"> Submit </button> 
+        </form> 
+    </div>
+
+    <!-- valid email input prompt -->
+    <div class = "validEmailPrompt">
+        <p> Email added to mail list! </p>
+    </div>
+
+    <!-- invalid email input prompt -->
+    <div class = "invalidEmailPrompt">
+        <p> Email invalid </p>
+    </div>
+
+    <!-- i know this is chopped but this is to make it scroll futher and it works so /: -->
+    <br> <br> <br> <br> <br> <br> <br> <br> 
 
     <!-- JSfile -->
      <script src="main.js"></script>
 </body>
 </html>
+
